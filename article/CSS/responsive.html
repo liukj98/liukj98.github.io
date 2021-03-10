@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>响应式原理 | Lkj&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/logo3.png">
+    <meta name="description" content="我的个人博客网站">
+    
+    <link rel="preload" href="/assets/css/0.styles.e4d8b86b.css" as="style"><link rel="preload" href="/assets/js/app.a0e88446.js" as="script"><link rel="preload" href="/assets/js/2.707dec68.js" as="script"><link rel="preload" href="/assets/js/14.48ffd2ba.js" as="script"><link rel="prefetch" href="/assets/js/10.608d866f.js"><link rel="prefetch" href="/assets/js/11.9fe69038.js"><link rel="prefetch" href="/assets/js/12.9b8a601d.js"><link rel="prefetch" href="/assets/js/13.9fd68536.js"><link rel="prefetch" href="/assets/js/15.e6422d8f.js"><link rel="prefetch" href="/assets/js/16.6a197b87.js"><link rel="prefetch" href="/assets/js/17.eb677bac.js"><link rel="prefetch" href="/assets/js/18.db822008.js"><link rel="prefetch" href="/assets/js/3.b7d5ab0c.js"><link rel="prefetch" href="/assets/js/4.b094ff26.js"><link rel="prefetch" href="/assets/js/5.9d431ef9.js"><link rel="prefetch" href="/assets/js/6.f28dfb6d.js"><link rel="prefetch" href="/assets/js/7.40c67b75.js"><link rel="prefetch" href="/assets/js/8.1964d701.js"><link rel="prefetch" href="/assets/js/9.eb72cd78.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e4d8b86b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Lkj's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/article/" class="nav-link router-link-active">
+  前端基础
+</a></div><div class="nav-item"><a href="/essay/" class="nav-link">
+  随笔
+</a></div><div class="nav-item"><a href="https://github.com/liukj98" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/article/" class="nav-link router-link-active">
+  前端基础
+</a></div><div class="nav-item"><a href="/essay/" class="nav-link">
+  随笔
+</a></div><div class="nav-item"><a href="https://github.com/liukj98" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/article/" aria-current="page" class="sidebar-link">文章目录</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>CSS</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/article/CSS/float.html" class="sidebar-link">浮动</a></li><li><a href="/article/CSS/bfc.html" class="sidebar-link">块级格式化上下文</a></li><li><a href="/article/CSS/responsive.html" aria-current="page" class="active sidebar-link">响应式原理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/article/CSS/responsive.html#一、响应式所具有的特点" class="sidebar-link">一、响应式所具有的特点</a></li><li class="sidebar-sub-header"><a href="/article/CSS/responsive.html#二、-规则" class="sidebar-link">二、@规则</a></li><li class="sidebar-sub-header"><a href="/article/CSS/responsive.html#三、-media-媒体查询" class="sidebar-link">三、@media 媒体查询 [](https://drafts.csswg.org/mediaqueries)</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>React</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><blockquote><p>bootstrap最核心的东西就是栅格系统啦，而栅格系统最核心的东西就是响应式原理，而响应式原理最核心的东西就是媒体查询啦，所以本篇文章来简单的了解下媒体查询及其相关的一些知识吧。</p></blockquote> <h2 id="一、响应式所具有的特点"><a href="#一、响应式所具有的特点" class="header-anchor">#</a> 一、响应式所具有的特点</h2> <ol><li>网页的宽度自动调整</li> <li>尽量少用绝对宽度</li> <li>字体要用rem，em作为单位
+<ul><li>rem是相对于html标签计算（推荐使用）</li> <li>em是相对于父元素计算</li></ul></li> <li>布局要使用浮动(v3.)，弹性布局(v4.)</li></ol> <h2 id="二、-规则"><a href="#二、-规则" class="header-anchor">#</a> 二、@规则</h2> <ol><li>@charset    定义编码</li> <li>@import     引入css文件</li> <li>@font-face  自定义字体</li> <li>@keyframes  animation里的关键帧</li> <li>@media      <strong>媒体查询</strong>    根据一个或多个基于设备类型，基本特点和环境来应用样式</li></ol> <h2 id="三、-media-媒体查询"><a href="#三、-media-媒体查询" class="header-anchor">#</a> 三、@media 媒体查询 <a href="https://drafts.csswg.org/mediaqueries" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></h2> <ol><li>媒体类型
+<ol><li>all         匹配所有设备类型</li> <li>print       打印机设备</li> <li>screen      彩色的电脑屏幕</li> <li>speech      听觉设备（针对有视力障碍的人士，可以把页面的内容以语音的方式呈现的设备）</li></ol></li> <li>媒体特性
+<ol><li>width 宽度
+<ol><li>min-width 最小宽度，宽度只能比这个大</li> <li>max-width 最大宽度，宽度只能比这个小</li></ol></li> <li>height 高度
+<ol><li>min-height 最小高度，高度只能比这个大</li> <li>max-height 最小高度，高度只能比这个大</li></ol></li> <li>orientation 方向
+<ol><li>landscape 横屏（宽度大于高度）</li> <li>partrait  竖屏（高度大于宽度）</li></ol></li> <li>aspect-ratio 宽高比</li> <li>-webkit-device-pixel-ratio 像素比（webkit内核的私有属性）</li></ol></li> <li>逻辑运算符
+<ol><li>and      合并多个媒体查询（并且的意思）</li> <li>,        匹配某个媒体查询（或的意思）</li> <li>not      对媒体查询结果取反</li> <li>only     防范老旧浏览器，因为一些老旧浏览器可能并不认识<code>@media ...</code>媒体查询 它们会直接解析媒体查询里面的CSS样式</li></ol></li></ol></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">11/15/2020, 3:21:31 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/article/CSS/bfc.html" class="prev">
+        块级格式化上下文
+      </a></span> <span class="next"><a href="/article/JS/iife.html">
+        立即执行函数
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a0e88446.js" defer></script><script src="/assets/js/2.707dec68.js" defer></script><script src="/assets/js/14.48ffd2ba.js" defer></script>
+  </body>
+</html>
